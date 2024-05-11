@@ -1,0 +1,15 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 52px;
+  padding: 16px;
+  box-shadow: 0 8px 20px 0 rgba(17, 152, 95, 0.4);
+  background-color: var(--primary-color);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  color: var(--white-color);
+}
