@@ -1,4 +1,21 @@
 // Footer
-footer {
-    display: block;
+.footer {
+  margin-top: auto;
+  margin-bottom: 20px;
+
+  // .footer__inner
+
+  &__inner {}
+
+  // .footer__btns
+
+  &__btns {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+  }
+
+  // .footer__btn
+
+  &__btn {}
 }

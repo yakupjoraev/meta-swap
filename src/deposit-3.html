@@ -15,10 +15,52 @@
     @@include('./html/_header-mini.html')
 
     <!-- Main Page -->
-    <main></main>
+    <main class="main">
+      <div class="content">
+        <h1 class="title">Пополнение</h1>
+
+        <div class="deposit">
+          <div class="deposit__head">
+            <div class="deposit__head-row">
+              <p class="deposit__head-label">Валюта:</p>
+              <p class="deposit__head-value">USDT</p>
+            </div>
+
+            <div class="deposit__head-row">
+              <p class="deposit__head-label">Сеть:</p>
+              <p class="deposit__head-value">TRON (TRC20)</p>
+            </div>
+          </div>
+        </div>
+
+
+        <form class="form" action="#">
+          <div class="form__gorup">
+            <label class="form__label" for="">Адрес пополнения</label>
+            <div class="form__input-gorup">
+              <input class="form__input" type="text" value="0...xPiUyg6jk9RQQuDfA6YGP">
+              <button type="button" class="form__input-btn">
+                <img class="form__input-icon" width="24" height="24" src="./img/icons/copy.svg" alt="copy icon">
+              </button>
+            </div>
+          </div>
+
+          <div class="form__qr">
+            <img class="form__qr-img" width="272" height="268" src="./img/qr.png" alt="qr code">
+          </div>
+        </form>
+      </div>
+    </main>
 
     <!-- Footer -->
-    <!-- @@include('./html/_footer.html') -->
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__btns">
+          <a class="footer__btn btn" href="#">Готово</a>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 

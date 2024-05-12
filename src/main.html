@@ -15,10 +15,328 @@
     @@include('./html/_header-full.html')
 
     <!-- Main Page -->
-    <main></main>
+    <main class="main">
+      <div class="content">
+        <div class="balanse">
+          <div class="balanse__head">
+            <h1 class="balanse__label">Баланс</h1>
+            <div class="balanse__sums">
+              <p class="balanse__sum">12 000</p>
+              <div class="balanse__select">
+                <p class="balanse__select-text">USDT</p>
+                <button type="button" class="balanse__btn">
+                  <img class="balanse__btn-arrow" width="12" height="12" src="./img/icons/select-arrow.svg"
+                    alt="arrow icon">
+                </button>
+              </div>
+            </div>
+          </div>
 
-    <!-- Footer -->
-    <!-- @@include('./html/_footer.html') -->
+          <div class="balanse__actions">
+            <a class="balanse__action" href="#">
+              <div class="balanse__action-icon">
+                <img class="balanse__action-img" width="13" height="15" src="./img/icons/action-arrow-down.svg"
+                  alt="arrow icon">
+              </div>
+
+              <p class="balanse__action-text">Deposit</p>
+            </a>
+
+            <a class="balanse__action" href="#">
+              <div class="balanse__action-icon">
+                <img class="balanse__action-img" width="13" height="15" src="./img/icons/action-arrow-top.svg"
+                  alt="arrow icon">
+              </div>
+
+              <p class="balanse__action-text">Send</p>
+            </a>
+
+            <a class="balanse__action" href="#">
+              <div class="balanse__action-icon">
+                <img class="balanse__action-img" width="22" height="22" src="./img/icons/action-arrow-swap.svg"
+                  alt="swap icon">
+              </div>
+
+              <p class="balanse__action-text">Swap</p>
+            </a>
+
+            <a class="balanse__action" href="#">
+              <div class="balanse__action-icon">
+                <img class="balanse__action-img" width="22" height="22" src="./img/icons/action-arrow-offchain.svg"
+                  alt="offchain icon">
+              </div>
+
+              <p class="balanse__action-text">Offchain</p>
+            </a>
+
+            <a class="balanse__action" href="#">
+              <div class="balanse__action-icon">
+                <img class="balanse__action-img" width="22" height="22" src="./img/icons/action-autoconvert.svg"
+                  alt="offchain icon">
+              </div>
+
+              <p class="balanse__action-text">Autoconvert</p>
+            </a>
+          </div>
+        </div>
+        <div class="tokens">
+          <div class="tokens__head">
+            <div class="tokens__actives">
+              <p class="tokens__actives-text">Активы</p>
+              <button type="button" class="tokens__actives-btn">
+                <img class="tokens__actives-img" width="16" height="16" src="./img/icons/plus.svg" alt="">
+              </button>
+            </div>
+
+            <a class="tokens__history" href="#">История</a>
+          </div>
+          <ul class="tokens__list">
+            <li class="tokens__item">
+              <div class="tokens__info">
+                <img class="tokens__icon" width="36" height="36" src="./img/tokens/1.svg" alt="token icon">
+
+                <div class="tokens__texts">
+                  <p class="tokens__text tokens__text--bold">Ethereum</p>
+                  <p class="tokens__text">ETH</p>
+                </div>
+              </div>
+              <div class="tokens__texts tokens__texts--right">
+                <p class="tokens__text tokens__text--bold">7 153.13</p>
+                <p class="tokens__text">$17,437.81</p>
+              </div>
+            </li>
+
+            <li class="tokens__item">
+              <div class="tokens__info">
+                <img class="tokens__icon" width="36" height="36" src="./img/tokens/2.svg" alt="token icon">
+
+                <div class="tokens__texts">
+                  <p class="tokens__text tokens__text--bold">Bitcoin</p>
+                  <p class="tokens__text">BTC</p>
+                </div>
+              </div>
+              <div class="tokens__texts tokens__texts--right">
+                <p class="tokens__text tokens__text--bold">7 153.13</p>
+                <p class="tokens__text">$17,437.81</p>
+              </div>
+            </li>
+
+            <li class="tokens__item">
+              <div class="tokens__info">
+                <img class="tokens__icon" width="36" height="36" src="./img/tokens/3.svg" alt="token icon">
+
+                <div class="tokens__texts">
+                  <p class="tokens__text tokens__text--bold">Polygon</p>
+                  <p class="tokens__text">MATIC</p>
+                </div>
+              </div>
+              <div class="tokens__texts tokens__texts--right">
+                <p class="tokens__text tokens__text--bold">7 153.13</p>
+                <p class="tokens__text">$17,437.81</p>
+              </div>
+            </li>
+
+            <li class="tokens__item">
+              <div class="tokens__info">
+                <img class="tokens__icon" width="36" height="36" src="./img/tokens/4.svg" alt="token icon">
+
+                <div class="tokens__texts">
+                  <p class="tokens__text tokens__text--bold">Dogecoin</p>
+                  <p class="tokens__text">DOGE</p>
+                </div>
+              </div>
+              <div class="tokens__texts tokens__texts--right">
+                <p class="tokens__text tokens__text--bold">7 153.13</p>
+                <p class="tokens__text">$17,437.81</p>
+              </div>
+            </li>
+
+            <li class="tokens__item">
+              <div class="tokens__info">
+                <img class="tokens__icon" width="36" height="36" src="./img/tokens/1.svg" alt="token icon">
+
+                <div class="tokens__texts">
+                  <p class="tokens__text tokens__text--bold">Ethereum</p>
+                  <p class="tokens__text">ETH</p>
+                </div>
+              </div>
+              <div class="tokens__texts tokens__texts--right">
+                <p class="tokens__text tokens__text--bold">7 153.13</p>
+                <p class="tokens__text">$17,437.81</p>
+              </div>
+            </li>
+
+            <li class="tokens__item">
+              <div class="tokens__info">
+                <img class="tokens__icon" width="36" height="36" src="./img/tokens/2.svg" alt="token icon">
+
+                <div class="tokens__texts">
+                  <p class="tokens__text tokens__text--bold">Bitcoin</p>
+                  <p class="tokens__text">BTC</p>
+                </div>
+              </div>
+              <div class="tokens__texts tokens__texts--right">
+                <p class="tokens__text tokens__text--bold">7 153.13</p>
+                <p class="tokens__text">$17,437.81</p>
+              </div>
+            </li>
+
+            <li class="tokens__item">
+              <div class="tokens__info">
+                <img class="tokens__icon" width="36" height="36" src="./img/tokens/3.svg" alt="token icon">
+
+                <div class="tokens__texts">
+                  <p class="tokens__text tokens__text--bold">Polygon</p>
+                  <p class="tokens__text">MATIC</p>
+                </div>
+              </div>
+              <div class="tokens__texts tokens__texts--right">
+                <p class="tokens__text tokens__text--bold">7 153.13</p>
+                <p class="tokens__text">$17,437.81</p>
+              </div>
+            </li>
+
+            <li class="tokens__item">
+              <div class="tokens__info">
+                <img class="tokens__icon" width="36" height="36" src="./img/tokens/4.svg" alt="token icon">
+
+                <div class="tokens__texts">
+                  <p class="tokens__text tokens__text--bold">Dogecoin</p>
+                  <p class="tokens__text">DOGE</p>
+                </div>
+              </div>
+              <div class="tokens__texts tokens__texts--right">
+                <p class="tokens__text tokens__text--bold">7 153.13</p>
+                <p class="tokens__text">$17,437.81</p>
+              </div>
+            </li>
+
+            <li class="tokens__item">
+              <div class="tokens__info">
+                <img class="tokens__icon" width="36" height="36" src="./img/tokens/1.svg" alt="token icon">
+
+                <div class="tokens__texts">
+                  <p class="tokens__text tokens__text--bold">Ethereum</p>
+                  <p class="tokens__text">ETH</p>
+                </div>
+              </div>
+              <div class="tokens__texts tokens__texts--right">
+                <p class="tokens__text tokens__text--bold">7 153.13</p>
+                <p class="tokens__text">$17,437.81</p>
+              </div>
+            </li>
+
+            <li class="tokens__item">
+              <div class="tokens__info">
+                <img class="tokens__icon" width="36" height="36" src="./img/tokens/2.svg" alt="token icon">
+
+                <div class="tokens__texts">
+                  <p class="tokens__text tokens__text--bold">Bitcoin</p>
+                  <p class="tokens__text">BTC</p>
+                </div>
+              </div>
+              <div class="tokens__texts tokens__texts--right">
+                <p class="tokens__text tokens__text--bold">7 153.13</p>
+                <p class="tokens__text">$17,437.81</p>
+              </div>
+            </li>
+
+            <li class="tokens__item">
+              <div class="tokens__info">
+                <img class="tokens__icon" width="36" height="36" src="./img/tokens/3.svg" alt="token icon">
+
+                <div class="tokens__texts">
+                  <p class="tokens__text tokens__text--bold">Polygon</p>
+                  <p class="tokens__text">MATIC</p>
+                </div>
+              </div>
+              <div class="tokens__texts tokens__texts--right">
+                <p class="tokens__text tokens__text--bold">7 153.13</p>
+                <p class="tokens__text">$17,437.81</p>
+              </div>
+            </li>
+
+            <li class="tokens__item">
+              <div class="tokens__info">
+                <img class="tokens__icon" width="36" height="36" src="./img/tokens/4.svg" alt="token icon">
+
+                <div class="tokens__texts">
+                  <p class="tokens__text tokens__text--bold">Dogecoin</p>
+                  <p class="tokens__text">DOGE</p>
+                </div>
+              </div>
+              <div class="tokens__texts tokens__texts--right">
+                <p class="tokens__text tokens__text--bold">7 153.13</p>
+                <p class="tokens__text">$17,437.81</p>
+              </div>
+            </li>
+
+            <li class="tokens__item">
+              <div class="tokens__info">
+                <img class="tokens__icon" width="36" height="36" src="./img/tokens/1.svg" alt="token icon">
+
+                <div class="tokens__texts">
+                  <p class="tokens__text tokens__text--bold">Ethereum</p>
+                  <p class="tokens__text">ETH</p>
+                </div>
+              </div>
+              <div class="tokens__texts tokens__texts--right">
+                <p class="tokens__text tokens__text--bold">7 153.13</p>
+                <p class="tokens__text">$17,437.81</p>
+              </div>
+            </li>
+
+            <li class="tokens__item">
+              <div class="tokens__info">
+                <img class="tokens__icon" width="36" height="36" src="./img/tokens/2.svg" alt="token icon">
+
+                <div class="tokens__texts">
+                  <p class="tokens__text tokens__text--bold">Bitcoin</p>
+                  <p class="tokens__text">BTC</p>
+                </div>
+              </div>
+              <div class="tokens__texts tokens__texts--right">
+                <p class="tokens__text tokens__text--bold">7 153.13</p>
+                <p class="tokens__text">$17,437.81</p>
+              </div>
+            </li>
+
+            <li class="tokens__item">
+              <div class="tokens__info">
+                <img class="tokens__icon" width="36" height="36" src="./img/tokens/3.svg" alt="token icon">
+
+                <div class="tokens__texts">
+                  <p class="tokens__text tokens__text--bold">Polygon</p>
+                  <p class="tokens__text">MATIC</p>
+                </div>
+              </div>
+              <div class="tokens__texts tokens__texts--right">
+                <p class="tokens__text tokens__text--bold">7 153.13</p>
+                <p class="tokens__text">$17,437.81</p>
+              </div>
+            </li>
+
+            <li class="tokens__item">
+              <div class="tokens__info">
+                <img class="tokens__icon" width="36" height="36" src="./img/tokens/4.svg" alt="token icon">
+
+                <div class="tokens__texts">
+                  <p class="tokens__text tokens__text--bold">Dogecoin</p>
+                  <p class="tokens__text">DOGE</p>
+                </div>
+              </div>
+              <div class="tokens__texts tokens__texts--right">
+                <p class="tokens__text tokens__text--bold">7 153.13</p>
+                <p class="tokens__text">$17,437.81</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </main>
+
+
   </div>
 </body>
 

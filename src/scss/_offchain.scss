@@ -1,0 +1,30 @@
+.offchain {
+
+  // .offchain__info
+
+  &__info {}
+
+  // .offchain__text
+
+  &__text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--whitec-olor);
+
+    span {
+      font-weight: 800;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 4px;
+    }
+  }
+
+  // .offchain__text--lite
+
+  &__text--lite {
+    color: var(--lite-color);
+  }
+}

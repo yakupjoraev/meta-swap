@@ -1,7 +1,13 @@
 // Header
-.header {}
+.header {
+  height: fit-content;
+}
 
 .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 20px;
 
   // .nav__item
 
@@ -13,9 +19,20 @@
 
   // .nav__list
 
-  &__list {}
+  &__list {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+  }
 
   // .nav__link
 
-  &__link {}
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
 }

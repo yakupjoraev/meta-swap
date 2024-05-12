@@ -1,0 +1,128 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin: 32px 0;
+
+  // .form__gorup
+
+  &__gorup {}
+
+  // .form__label
+
+  &__label {
+    display: inline-flex;
+    margin-bottom: 8px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 100%;
+    color: var(--white-color);
+  }
+
+  // .form__input-gorup
+
+  &__input-gorup {
+    position: relative;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+  }
+
+  // .form__input
+
+  &__input {
+    padding: 10px 44px 10px 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    background-color: var(--lite-color);
+
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 100%;
+    color: var(--dark-color);
+
+    &::placeholder {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 100%;
+      color: var(--dark-color);
+    }
+  }
+
+  // .form__input-btn
+
+  &__input-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+  }
+
+  // .form__camera-btn
+
+  &__camera-btn {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+  }
+
+
+  // .form__input-icon
+
+  &__input-icon {}
+
+
+  // .form__sub
+
+  &__sub {
+    display: inline-flex;
+    margin-top: 8px;
+
+    font-size: 11px;
+    line-height: 100%;
+    text-decoration: underline;
+    color: var(--white-color);
+
+    &.primary-color {
+      color: var(--primary-color);
+    }
+  }
+
+  // .form__comission
+
+  &__comission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    border-radius: 12px;
+    background-color: var(--blue-color);
+
+    text-align: center;
+    font-size: 11px;
+    line-height: 100%;
+    color: var(--white-color);
+  }
+
+  // .form__qr
+
+  &__qr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: var(--lite-color);
+  }
+
+  // .form__qr-img
+
+  &__qr-img {}
+}

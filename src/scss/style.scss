@@ -10,6 +10,10 @@
 @import './header';
 
 //main sections
+@import './form';
+@import './tokens';
+@import './select';
+@import './start';
 @import './offchain';
 @import './deposit';
 @import './send';
@@ -19,6 +23,7 @@
 @import './autoconvert';
 @import './verification';
 @import './2fa';
+@import './balanse';
 
 //footer
 @import './footer';

@@ -15,10 +15,56 @@
     @@include('./html/_header-mini.html')
 
     <!-- Main Page -->
-    <main></main>
+    <main class="main">
+      <div class="content">
+        <h1 class="title">Offchain перевод</h1>
+
+        <a class="logo" href="#">
+          <img class="logo__img" width="182" height="124" src="./img/logo.svg" alt="logo img">
+        </a>
+
+        <form class="form" action="#">
+          <div class="form__gorup">
+            <label class="form__label" for="">Сумма</label>
+            <div class="form__input-gorup">
+              <input class="form__input" type="text" value="500">
+              <div class="form__input-btn">
+                <span>USDT</span>
+              </div>
+            </div>
+
+            <a class="form__sub primary-color" href="#">Сеть: BNB Smart Chain</a>
+          </div>
+
+          <div class="form__gorup">
+            <label class="form__label" for="">Адрес получателя</label>
+            <div class="form__input-gorup">
+              <input class="form__input" type="text" value="0...xPiUyg6jk9RQQuDfA6YGP">
+              <button type="button" class="form__camera-btn">
+                <img class="form__input-icon" width="36" height="36" src="./img/icons/photo-camera.svg"
+                  alt="photo-camera icon">
+              </button>
+            </div>
+
+            <a class="form__sub" href="#">Выбрать из адресной книги</a>
+          </div>
+
+          <div class="form__gorup">
+            <div class="form__comission"><span class="primary-color">Комиссия сети: 3 USDT</span></div>
+          </div>
+        </form>
+      </div>
+    </main>
 
     <!-- Footer -->
-    <!-- @@include('./html/_footer.html') -->
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__btns">
+          <a class="footer__btn btn" href="#">Отправить 500 USDT</a>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 

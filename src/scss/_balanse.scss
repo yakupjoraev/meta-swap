@@ -1,0 +1,151 @@
+.balanse {
+  margin: 0 0 40px;
+
+  // .balanse__head
+
+  &__head {
+    position: relative;
+    padding: 28px 0 120px 0;
+    background-image: url('../img/main/main-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 375px 188px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: -20px;
+      top: 50%;
+      width: 100px;
+      height: 100%;
+      transform: translateY(-50%);
+      background-image: url('../img/main/main-left.png');
+      background-repeat: no-repeat;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      right: -20px;
+      top: 50%;
+      width: 58px;
+      height: 100%;
+      transform: translateY(-50%);
+      background-image: url('../img/main/main-right.png');
+      background-repeat: no-repeat;
+    }
+  }
+
+  // .balanse__label
+
+  &__label {
+    margin-bottom: 12px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 120%;
+    color: var(--white-color);
+  }
+
+  // .balanse__sums
+
+  &__sums {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    column-gap: 12px;
+  }
+
+  // .balanse__sum
+
+  &__sum {
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 66%;
+    color: var(--white-color);
+  }
+
+  // .balanse__select
+
+  &__select {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+
+    padding: 4px 8px;
+    border: 1px solid var(--white-color);
+    border-radius: 100px;
+  }
+
+  // .balanse__select-text
+
+  &__select-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    color: var(--white-color);
+  }
+
+  // .balanse__btn
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+  }
+
+  // .balanse__btn-arrow
+
+  &__btn-arrow {
+    filter: brightness(0) saturate(100%) invert(97%) sepia(8%) saturate(67%) hue-rotate(339deg) brightness(114%) contrast(100%);
+  }
+
+  // .balanse__actions
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+  }
+
+  // .balanse__action
+
+  &__action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 8px;
+    text-align: center;
+  }
+
+  // .balanse__action-icon
+
+  &__action-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    border-radius: 100%;
+    background-color: var(--dark-color);
+  }
+
+  // .balanse__action-img
+
+  &__action-img {}
+
+  // .balanse__action-text
+
+  &__action-text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 120%;
+    color: var(--white-color);
+  }
+}

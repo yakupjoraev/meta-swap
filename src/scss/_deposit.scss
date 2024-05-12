@@ -1,0 +1,39 @@
+.deposit {
+
+  // .deposit__head
+
+  &__head {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    margin: 32px 0;
+  }
+
+  // .deposit__head-row
+
+  &__head-row {
+    display: grid;
+    grid-template-columns: 80px 140px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+  }
+
+  // .deposit__head-label
+
+  &__head-label {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--white-color0);
+  }
+
+  // .deposit__head-value
+
+  &__head-value {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--primary-color);
+  }
+}

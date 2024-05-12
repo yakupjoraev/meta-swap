@@ -1,0 +1,149 @@
+.select {
+  position: relative;
+  z-index: 2;
+  margin: 12px 0;
+
+  &.open {
+    .select__tokens {
+      top: 20px;
+      user-select: auto;
+      pointer-events: visible;
+      opacity: 1;
+    }
+
+    .select__btn-arrow {
+      transform: rotate(180deg);
+    }
+  }
+
+  // .select__label
+
+  &__label {
+    display: inline-flex;
+    margin-bottom: 8px;
+    font-size: 11px;
+    line-height: 100%;
+    color: var(--white-color);
+  }
+
+  // .select__selected
+
+  &__selected {
+    padding: 6px 20px;
+    border-radius: 12px;
+    background-color: var(--lite-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+  }
+
+  // .select__info
+
+  &__info {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+
+  // .select__icon
+
+  &__icon {
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+
+  // .select__text
+
+  &__text {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 100%;
+    color: var(--dark-color);
+  }
+
+  // .select__btn
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    z-index: 2;
+  }
+
+  // .select__btn-arrow
+
+  &__btn-arrow {
+    transform: transform 0.2s linear;
+  }
+
+  // .select__tokens
+
+  &__tokens {
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: var(--lite-color);
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+
+    opacity: 0;
+    user-select: none;
+    pointer-events: none;
+    transition: 0.2s linear;
+  }
+
+  // .select__token
+
+  &__token {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  // .select__token-info
+
+  &__token-info {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+
+  // .select__token-icon
+
+  &__token-icon {
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+
+  // .select__token-texts
+
+  &__token-texts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+  }
+
+  // .select__token-text
+
+  &__token-text {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 100%;
+    color: var(--dark-color);
+  }
+}
