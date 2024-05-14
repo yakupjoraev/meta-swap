@@ -1,0 +1,160 @@
+.autoconvert {
+  padding: 30px 20px;
+  border-radius: 12px;
+  background-color: var(--lite-color);
+
+  &--outline {
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+  }
+
+  &+.form__qr {
+    margin-top: 10px;
+  }
+
+  .form__label {
+    color: var(--dark-color);
+  }
+
+  .form__input {
+    background-color: var(--white-color);
+  }
+
+  // .autoconvert__label
+
+  &__label {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: var(--dark-color);
+  }
+
+  // .autoconvert__group
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    padding: 20px 0;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    &:not(:last-child) {
+      border-bottom: 1px solid var(--lite-blue-color);
+    }
+  }
+
+  // .autoconvert__row
+
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  // .autoconvert__text
+
+  &__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    color: var(--dark-color);
+  }
+
+  // .autoconvert__text--center
+
+  &__text--center {
+    width: 100%;
+    text-align: center;
+  }
+
+  // .autoconvert__text--bold
+
+  &__text--bold {
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  // .autoconvert__list
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  // .autoconvert__item
+
+  &__item {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding: 14px 20px;
+    border-radius: 12px;
+    background-color: var(--lite-color);
+  }
+
+  // .autoconvert__tokens
+
+  &__tokens {
+    display: flex;
+    flex-direction: column;
+  }
+
+  // .autoconvert__token
+
+  &__token {
+
+    &:nth-child(2) {
+      margin-left: 16px;
+      margin-top: -10px;
+    }
+  }
+
+  // .autoconvert__item-texts
+
+  &__item-texts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+  }
+
+  // .autoconvert__item-text
+
+  &__item-text {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--dark-color);
+
+    b {
+      font-weight: 800;
+      font-size: 20px;
+    }
+  }
+
+  // .autoconvert__item-btn
+
+  &__item-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+  }
+
+  // .autoconvert__item-icon
+
+  &__item-icon {}
+
+}

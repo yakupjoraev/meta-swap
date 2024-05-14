@@ -15,10 +15,73 @@
     @@include('./html/_header-mini.html')
 
     <!-- Main Page -->
-    <main></main>
+    <main class="main">
+      <div class="content">
+
+        <div class="autoconvert">
+          <p class="autoconvert__label">Адрес автоконвертации</p>
+
+          <div class="autoconvert__group">
+            <div class="autoconvert__row">
+              <p class="autoconvert__text">Из:</p>
+              <p class="autoconvert__text">USDT</p>
+            </div>
+            <div class="autoconvert__row">
+              <p class="autoconvert__text">Сеть:</p>
+              <p class="autoconvert__text">(TRC20) TRON</p>
+            </div>
+          </div>
+
+          <div class="autoconvert__group">
+            <div class="autoconvert__row">
+              <p class="autoconvert__text">В: </p>
+              <p class="autoconvert__text">Ethereum</p>
+            </div>
+            <div class="autoconvert__row">
+              <p class="autoconvert__text">Сеть: </p>
+              <p class="autoconvert__text">(ERC20) Ethereum</p>
+            </div>
+          </div>
+
+          <div class="autoconvert__group">
+            <div class="autoconvert__row">
+              <p class="autoconvert__text autoconvert__text--center">Текущий курс контвертации:
+              </p>
+            </div>
+            <div class="autoconvert__row">
+              <p class="autoconvert__text autoconvert__text--center autoconvert__text--bold">1 USDT— 0.00357 ETH</p>
+            </div>
+          </div>
+
+          <div class="autoconvert__group">
+            <div class="form__gorup">
+              <label class="form__label" for="">Адрес:</label>
+              <div class="form__input-gorup">
+                <input class="form__input" type="text" value="0...xPiUyg6jk9RQQuDfA6YGP">
+                <button type="button" class="form__input-btn">
+                  <img class="form__input-icon" width="24" height="24" src="./img/icons/copy.svg" alt="copy icon">
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form__qr">
+          <img class="form__qr-img" width="100%" height="268" src="./img/qr.png" alt="qr code">
+        </div>
+      </div>
+    </main>
 
     <!-- Footer -->
-    <!-- @@include('./html/_footer.html') -->
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__btns">
+          <a class="footer__btn btn" href="#">Готово</a>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 
