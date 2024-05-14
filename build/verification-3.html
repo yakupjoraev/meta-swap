@@ -27,10 +27,35 @@
 </header>
 
     <!-- Main Page -->
-    <main></main>
+    <main class="main">
+      <div class="content">
+
+        <h1 class="title">Верификация</h1>
+
+        <!-- <div class="verification__percent">
+          <div class="verification__percent-cirkle">
+            <div class="verification__percent-cirkle-inner" style="width: 31%;"></div>
+          </div>
+          <div class="verification__percent-sum">31%</div>
+        </div> -->
+
+        <div class="verification__percent" role="progressbar" aria-valuenow="31" aria-valuemin="0" aria-valuemax="100"
+          style="--value: 31"></div>
+
+        <p class="verification__text">Ваши документы успешно загруженны. Подождите пока они пройдут проверку (~2 min)
+        </p>
+      </div>
+    </main>
 
     <!-- Footer -->
-    
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__btns">
+          <a class="footer__btn btn-disabled" href="#">Ждите</a>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 
