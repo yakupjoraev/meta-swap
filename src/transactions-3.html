@@ -15,10 +15,72 @@
     @@include('./html/_header-mini.html')
 
     <!-- Main Page -->
-    <main></main>
+    <main class="main">
+      <div class="content">
+        <h1 class="title">Детали транзакции</h1>
+
+        <div class="detalies">
+          <div class="detalies__inner">
+            <div class="detalies__head">
+              <p class="detalies__head-label">Исходящий перевод</p>
+              <p class="detalies__head-sum">500 USDT</p>
+            </div>
+
+            <div class="detalies__rows">
+              <div class="detalies__row">
+                <p class="detalies__text">Сеть:</p>
+                <p class="detalies__text">BNB Smart Chain (bep20)</p>
+              </div>
+
+              <div class="detalies__row">
+                <p class="detalies__text">Дата:</p>
+                <p class="detalies__text">05.05.2024</p>
+              </div>
+
+              <div class="detalies__row">
+                <p class="detalies__text">Время</p>
+                <p class="detalies__text">15.00</p>
+              </div>
+
+              <div class="detalies__row">
+                <p class="detalies__text">Статус</p>
+                <p class="detalies__text primary-color">Выполнен</p>
+              </div>
+
+              <div class="detalies__row">
+                <p class="detalies__text">Получатель:</p>
+                <a href="#" class="detalies__text">0x023...870987</a>
+              </div>
+
+              <div class="detalies__row">
+                <p class="detalies__text">Комиссия сети: </p>
+                <p class="detalies__text">3 USDT</p>
+              </div>
+            </div>
+
+            <div class="detalies__contact">
+              <div class="form__input-gorup">
+                <input class="form__input" type="text" placeholder="Name Tag Mark">
+                <button type="button" class="form__input-btn">
+                  <img class="form__input-icon" width="24" height="24" src="./img/icons/address-book.svg"
+                    alt="address-book icon">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <!-- Footer -->
-    <!-- @@include('./html/_footer.html') -->
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__btns">
+          <a class="footer__btn btn" href="#">Повторить</a>
+        </div>
+      </div>
+    </footer>
   </div>
 </body>
 

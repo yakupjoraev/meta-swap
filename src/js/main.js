@@ -2,17 +2,20 @@
 
 
 function select() {
-  const container = document.querySelector('.select');
+  let selects = document.querySelectorAll('.select');
 
-  if (!container) {
+  if (!selects) {
     return null
   }
 
+  selects.forEach(select => {
+    const btn = select.querySelector('.select__btn');
+    btn.addEventListener('click', () => {
+      select.classList.toggle('open')
+    })
+  });
 
-  const btn = container.querySelector('.select__btn');
-  btn.addEventListener('click', () => {
-    container.classList.toggle('open')
-  })
+
 }
 
 select();

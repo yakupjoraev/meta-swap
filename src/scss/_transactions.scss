@@ -1,0 +1,99 @@
+.transactions {
+  padding: 20px 20px 20px 10px;
+  border-radius: 12px;
+  background-color: var(--lite-color);
+
+  // .transactions__list
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+
+  // .transactions__item
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  // .transactions__info
+
+  &__info {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+
+  // .transactions__icon
+
+  &__icon {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    overflow: hidden;
+  }
+
+  // .transactions__texts
+
+  &__texts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+  }
+
+  // .transactions__text
+
+  &__text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    color: var(--dark-color);
+
+    b {
+      font-weight: 800;
+      font-size: 14px;
+    }
+  }
+
+  // .transactions__times
+
+  &__times {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    color: #7187a8;
+  }
+
+  // .transactions__time
+
+  &__time {}
+
+  // .transactions__sums
+
+  &__sums {
+    text-align: right;
+  }
+
+  // .transactions__sum
+
+  &__sum {
+    font-weight: 800;
+    font-size: 14px;
+    color: var(--dark-color);
+  }
+
+  // .transactions__action
+
+  &__action {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 120%;
+  }
+}
+
+.primary-color {}
+
+.orange-color {}
