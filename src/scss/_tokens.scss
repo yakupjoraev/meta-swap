@@ -19,6 +19,14 @@
     justify-content: space-between;
   }
 
+  // .tokens__item-link
+  &__item-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
   // .tokens__info
 
   &__info {

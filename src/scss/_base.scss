@@ -87,10 +87,21 @@
   color: var(--white-color);
 }
 
+.btn-small-height {
+  min-height: 34px;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
 .primary-color {
   color: var(--primary-color);
 }
 
 .orange-color {
   color: var(--orange-color);
+}
+
+.error-color {
+  color: var(--error-color);
 }

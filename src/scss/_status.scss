@@ -28,11 +28,11 @@
     line-height: 100%;
     color: var(--dark-color);
 
-    .primary-color {
+    &.primary-color {
       color: var(--primary-color);
     }
 
-    .error-color {
+    &.error-color {
       color: var(--error-color);
     }
 
